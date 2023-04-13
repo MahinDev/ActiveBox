@@ -1,0 +1,362 @@
+/* COMMON CSS start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* COMMON CSS END */
+
+
+/* NAVBAR CSS START */
+#navbar{
+    padding: 35px 0;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item ul{
+    display: flex;
+    padding-left: 20px;
+}
+.nav-item ul li{
+    padding-left: 20px;
+}
+.nav-item ul li a{
+    color: #ffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+/* NAVBAR CSS END */
+
+
+/* banner CSS start */
+#banner-part{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+    position: relative;
+    z-index: 1;
+}
+.banner-text h5{
+    font-size: 65px;
+    color: #ffff;
+    width: 870px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.banner-text p{
+    font-size: 22px;
+    color: #ffff;
+    width: 916px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+#banner-part::after{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(45, 48, 74, 0.924);
+    position: absolute;
+    z-index: -1;
+}
+.banner-btn button{
+    padding: 15px 40px;
+    background-color: #e84545;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+}
+.banner-btn{
+    text-align: center;
+    padding-top: 70px;
+}
+
+/* banner CSS END */
+
+
+/* icon CSS start */
+.icon i{
+    color: red;
+    font-size: 50px;
+}
+.icon-text h5{
+    font-size: 14px;
+    padding: 25px 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.icon-text p{
+    font-size: 14px;
+    width: 350px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.icon-wrapper{
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+#icon-part{
+   padding: 60px 0;
+   
+}
+.icon-item{
+    text-align: center;
+}
+/* icon CSS END */
+
+
+/* images CSS start */
+.img-row{
+    display: flex;
+}
+.img-col img{
+    display: block;
+}
+#image-part{
+    padding-bottom: 60px;
+}
+/* images CSS END */
+
+
+/* images CSS start */
+#identity-part{
+    padding: 50px 0;
+}
+
+.man-text h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 7px;
+}
+.man-text h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #e84545;
+}
+   
+.man-text p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 20px; 
+    width: 265px;
+}
+.man-wrapper{
+    display: flex;
+    justify-content: space-between;
+} 
+.man-icon a i{
+    color: #c6cacc;
+}
+.man-icon a{
+    padding: 11px 13px;
+    border: 1px solid #c6cacc;
+}
+.man-icon{
+    padding-top: 30px;
+}
+
+/* images CSS END */
+
+/* italic-part CSS start */
+#italic-part{
+   padding: 40px 0;
+}
+.img-italic{
+    background: #53354a;
+    padding-top: 105px;
+    padding-bottom: 105px;
+    padding-left: 90px;
+}
+.img-italic p{
+    font-family: 'Cardo', serif;
+    font-size: 36px;
+    font-weight: 400;
+    width: 500px;
+    color: #ffff;
+}
+.img-italic h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffff;
+    padding-top: 30px;
+}
+.img img{
+    display: block;
+}
+.italic-wrapper{
+    display: flex;
+}
+/* italic-part CSS END */
+
+
+/* download-part CSS start */
+#download-part{
+    padding: 50px 0;
+}
+.download-text h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+}
+.download-text p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 15px;
+}
+.download-btn button{
+   padding: 15px 80px;
+   font-family: 'Raleway', sans-serif;
+   font-size: 13px;
+   font-weight: 600;
+   background: #e84545;
+   border: none;
+   color: #ffff;
+}
+.download-btn{
+    text-align: center;
+    padding-top: 40px;
+}
+/* download-part CSS END */
+
+
+/* footer-part CSS start */
+.footer-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+#footer-part{
+    background: #3a3e64;
+    padding: 60px 0;
+}
+.activebox p{
+    width: 403px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #888a9d;
+    text-align: center;
+}
+.location{
+    width: 33.333%;
+    padding-left: 20px;
+}
+.share{
+    width: 33.333%;
+    padding-left: 130px;
+}
+.activebox{
+    width: 33.333%;
+}
+.activebox h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.location h2{
+  text-align: center;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.location h4{
+  text-align: center;
+  color: #888a9d;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.location p{
+  text-align: center;
+  color: #888a9d;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.share-icon{
+    padding-top: 20px;
+}
+.share-icon a i{
+    padding: 11px 13px;
+    border: 1px solid #fff;
+}
+.share-icon a{
+    color: #fff;
+}
+.share-text h2{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+/* footer-part CSS END */
+
+
+/* copyright-part CSS start */
+#copyright-part{
+    padding: 28px 0;
+    background-color: #313454;
+}
+.copyright-txt h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 300px;
+    text-align: center;
+    color: #808080;
+}
+.copyright-txt p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 300px;
+    text-align: center;
+    color: #808080;
+}
+.copyright{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 300px;
+}
+.copyright-txt p span i{
+    color: red;
+}
+/* copyright-part CSS END */
